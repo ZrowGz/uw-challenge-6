@@ -63,4 +63,68 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 (base) zrowgz@Eamons-MacBook-Pro uw-challenge-6 % history 1079 > cli-git-commands.txt
 fc: no such event: 1079
 (base) zrowgz@Eamons-MacBook-Pro uw-challenge-6 % history > cli-git-commands.txt
+
+9/28/21 - Submission of completed changes:
+(base) zrowgz@Eamons-MacBook-Pro uw-challenge-6 % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .ipynb_checkpoints/san_francisco_housing-checkpoint.ipynb
+	modified:   san_francisco_housing.ipynb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Images/rent-v-sales-alamo.png
+	Images/rent-v-sales-anza.png
+	Images/rent-v-sales-clarendon.png
+	Images/rent-v-sales-corona.png
+	Images/rent-v-sales-fin-north.png
+	Images/rent-v-sales-overall.png
+	Images/sfo-dot.png
+	rent-v-sales-alamo.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) zrowgz@Eamons-MacBook-Pro uw-challenge-6 % git add .
+(base) zrowgz@Eamons-MacBook-Pro uw-challenge-6 % git commit -m "Code complete. Analysis formulated, including addition of visualaizations."
+[main 796f4fc] Code complete. Analysis formulated, including addition of visualaizations.
+ 10 files changed, 3590 insertions(+), 136 deletions(-)
+ create mode 100644 Images/rent-v-sales-alamo.png
+ create mode 100644 Images/rent-v-sales-anza.png
+ create mode 100644 Images/rent-v-sales-clarendon.png
+ create mode 100644 Images/rent-v-sales-corona.png
+ create mode 100644 Images/rent-v-sales-fin-north.png
+ create mode 100644 Images/rent-v-sales-overall.png
+ create mode 100644 Images/sfo-dot.png
+ create mode 100644 rent-v-sales-alamo.png
+(base) zrowgz@Eamons-MacBook-Pro uw-challenge-6 % git push
+Enter passphrase for key '/Users/zrowgz/.ssh/id_rsa': 
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (13/13), 1016.16 KiB | 8.19 MiB/s, done.
+Total 13 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:ZrowGz/uw-challenge-6.git
+   f16daf3..796f4fc  main -> main
+(base) zrowgz@Eamons-MacBook-Pro uw-challenge-6 % git add .
+(base) zrowgz@Eamons-MacBook-Pro uw-challenge-6 % git commit -m "Update README"
+[main dee8555] Update README
+ 1 file changed, 32 insertions(+), 1 deletion(-)
+ rewrite README.md (100%)
+(base) zrowgz@Eamons-MacBook-Pro uw-challenge-6 % git push
+Enter passphrase for key '/Users/zrowgz/.ssh/id_rsa': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 822 bytes | 822.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:ZrowGz/uw-challenge-6.git
+   796f4fc..dee8555  main -> main
 (base) zrowgz@Eamons-MacBook-Pro uw-challenge-6 % 
+
